@@ -10,6 +10,6 @@ public class DemoTest {
     @RequestMapping("/index")
     @ResponseBody
     public String index(){
-        return "hello world! test";
+        return "hello world!";
     }
 }
